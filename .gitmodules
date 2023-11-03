@@ -1,0 +1,27 @@
+[submodule "ddn/v3-engine"]
+	path = ddn/v3-engine
+	url = git@github.com:hasura/v3-engine.git
+[submodule "ddn/hasura-lsp-server"]
+	path = ddn/hasura-lsp-server
+	url = git@github.com:hasura/hasura-lsp-server.git
+[submodule "ddn/v3-cli"]
+	path = ddn/v3-cli
+	url = git@github.com:hasura/v3-cli.git
+[submodule "ddn/ndc-hub"]
+	path = ddn/ndc-hub
+	url = git@github.com:hasura/ndc-hub.git
+[submodule "ddn/ndc-postgres"]
+	path = ddn/ndc-postgres
+	url = git@github.com:hasura/ndc-postgres.git
+[submodule "ddn/clickhouse_ndc"]
+	path = ddn/clickhouse_ndc
+	url = git@github.com:hasura/clickhouse_ndc.git
+[submodule "ddn/ndc-qdrant"]
+	path = ddn/ndc-qdrant
+	url = git@github.com:hasura/ndc-qdrant.git
+[submodule "ddn/ndc-sendgrid"]
+	path = ddn/ndc-sendgrid
+	url = git@github.com:hasura/ndc-sendgrid.git
+[submodule "ddn/ndc-typescript-deno"]
+	path = ddn/ndc-typescript-deno
+	url = git@github.com:hasura/ndc-typescript-deno.git
