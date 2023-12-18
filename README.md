@@ -16,15 +16,15 @@ Read more at [hasura.io](https://hasura.io) and the [docs](https://hasura.io/doc
 
 ------------------
 
+## Hasura V3
+
+Hasura DDN is the new offering by Hasura, built over new V3 Graphql Engine. The V3 engine code is at the `v3` folder of this repo. Please find more detailed information about the V3 Hasura Graphql Engine (which powers Hasura DDN) in this [README](v3/README.md).
+
+Hasura V3 architecture includes Data Connectors. All Hasura connectors are available open sourced. [NDC Hub] (https://github.com/hasura/ndc-hub/) lists all the available connectors.
+
 ## Hasura V2
 
-V2 code now resides in the /v2 folder of this repository. Please find more detailed information about the V2 Hasura Graphql Engine in this [README](v2/README.md).
-
-The V3 components are hosted as separate repositories, linked as submodules in this top level repositories for easy access.
-
-## Hasura DDN
-
-DDN is the new offering by Hasura, built over new V3 Graphql Engine. The core engine and the supporting tools for DDN is available at the ddn/ folder of this repo. Please find more detailed information about the V3 Hasura Graphql Engine (which powers Hasura DDN) in this [README](ddn/README.md).
+Please find more detailed information about the V2 Hasura Graphql Engine in this [README](v2/README.md).
 
 ## Support & Troubleshooting
 
@@ -83,5 +83,5 @@ All **other contents** in the v2 folder (except those in [`server`](v2/server), 
 This includes everything in the [`docs`](v2/docs) and [`community`](v2/community)
 directories.
 
-### DDN
-The core [V3 GraphQL Engine](ddn/v3-engine), the NDC connectors and other tools (LSP, CLI) are available under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) (Apache-2.0).
+### V3
+The core [V3 GraphQL Engine](v3/), the NDC connectors are available under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) (Apache-2.0).
